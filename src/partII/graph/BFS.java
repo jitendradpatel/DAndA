@@ -11,7 +11,7 @@ public class BFS {
     private boolean marked[];
     private int edgeTo[];
     private int sourceNode;
-    private int a;
+
     public BFS(AdjuncyListGraph g, int s) {
         this.sourceNode = s;
         marked = new boolean[g.getAdjuncyList().length];

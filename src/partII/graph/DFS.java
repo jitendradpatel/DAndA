@@ -17,7 +17,6 @@ public class DFS {
         marked = new boolean[g.getAdjuncyList().length];
         edgeTo = new int[g.getAdjuncyList().length];
         for (int i = 0; i < edgeTo.length; i++) {
-
             edgeTo[i] = -1;
         }
         this.s = s;
